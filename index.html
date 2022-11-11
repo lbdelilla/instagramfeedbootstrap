@@ -76,213 +76,200 @@
     </nav>   
     <!-- nav bar ends here -->  
     <!-- change visual distribution nav starts here-->
-    <nav>
-        <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
-                type="button" role="tab" aria-controls="nav-home" aria-selected="true"><svg
-                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+   <!-- <ul class="nav justify-content-center pb-2" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" aria-current="page"><svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16"style="color:darkgrey;">
                 <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z" />
-                </svg></button>
-            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                type="button" role="tab" aria-controls="nav-profile" aria-selected="false"> <svg
-                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
+                </svg></a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16" style="color:darkgrey;">
                 <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
-                </svg></button>
-        </div>
-    </nav>
+                </svg></a>
+        </li>
+    </ul> -->
+    <div class="row">
+        <ul class="nav nav-pills mb-3 justify-content-center pb-2" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16"style="color:darkgrey;">
+                    <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z" />
+                    </svg></button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16" style="color:darkgrey;">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
+                    </svg></button>
+            </li>
+        </ul>
     <!-- change visual distribution nav ends here -->
     <!-- wall 3x3 picture grid starts here-->  
-        <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
-                tabindex="0">...</div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-                ...</div>
-        </div>
-        <div class="container align-center">
-            <div class="row" style="margin: 5px 110px 5px 110px">
-                <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="http://www.lonestardigital.com/EOS_D30/Sample_Pix/D30_Img_3771(400x400_Crop).jpg"class="img-fluid" alt="cute picture"></div>
-                <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://i.picsum.photos/id/1033/400/400.jpg?hmac=v9MJH8zkm4PHzBsG24TmSGuQnnVjnk_vW_HzZR9X148"class="img-fluid" alt="cute picture2"></div>
-                <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://ww1.prweb.com/prfiles/2005/06/07/249097/dumbbellmed.jpg"class="img-fluid" alt="cute picture3" ></div>
-            </div>
-            <div class="row" style="margin: 5px 110px 5px 110px">
-                <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://i.picsum.photos/id/1033/400/400.jpg?hmac=v9MJH8zkm4PHzBsG24TmSGuQnnVjnk_vW_HzZR9X148"class="img-fluid" alt="cute picture4"></div>
-                <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/1160.jpg?w=400&h=400&q=75" class="img-fluid" alt="cute picture5"></div>
-                <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://www.trailsandoceans.com/wp-content/uploads/2017/05/PAISAJES-DE-VENEZUELA-400x400-compressor.jpg"class="img-fluid" alt="cute picture6"></div>
-            </div>
-            <div class="row" style="margin: 5px 110px 5px 110px">
-                <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://luzlux.com/wp-content/uploads/2019/11/PLZX0378-400x400.jpg"class="img-fluid" alt="cute picture7" ></div>
-                <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://pbs.twimg.com/profile_images/378800000043091457/261406ec3ad3beeec522df66f89614b5_400x400.jpeg" class="img-fluid" alt="cute picture8"></div>
-                <div class="col-4"style="padding: 0px 3px 0px 3px;"><img src="https://i.picsum.photos/id/1033/400/400.jpg?hmac=v9MJH8zkm4PHzBsG24TmSGuQnnVjnk_vW_HzZR9X148"class="img-fluid" alt="cute picture9" ></div>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container align-center">
+                <div class="row" style="margin: 5px 110px 5px 110px">
+                    <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="http://www.lonestardigital.com/EOS_D30/Sample_Pix/D30_Img_3771(400x400_Crop).jpg"class="img-fluid" alt="cute picture"></div>
+                    <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://i.picsum.photos/id/1033/400/400.jpg?hmac=v9MJH8zkm4PHzBsG24TmSGuQnnVjnk_vW_HzZR9X148"class="img-fluid" alt="cute picture2"></div>
+                    <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://i.pinimg.com/736x/1f/00/b8/1f00b888c35563d0e0819f47a35442db--beautiful-space-final.jpg"class="img-fluid" alt="cute picture3" style="height: 100% ;" ></div>
+                </div>
+                <div class="row" style="margin: 5px 110px 5px 110px">
+                    <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://i.picsum.photos/id/1033/400/400.jpg?hmac=v9MJH8zkm4PHzBsG24TmSGuQnnVjnk_vW_HzZR9X148"class="img-fluid" alt="cute picture4"></div>
+                    <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/1160.jpg?w=400&h=400&q=75" class="img-fluid" alt="cute picture5"></div>
+                    <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://www.trailsandoceans.com/wp-content/uploads/2017/05/PAISAJES-DE-VENEZUELA-400x400-compressor.jpg"class="img-fluid" alt="cute picture6"></div>
+                </div>
+                <div class="row" style="margin: 5px 110px 5px 110px">
+                    <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://luzlux.com/wp-content/uploads/2019/11/PLZX0378-400x400.jpg"class="img-fluid" alt="cute picture7" ></div>
+                    <div class="col-4" style="padding: 0px 3px 0px 3px;"><img src="https://pbs.twimg.com/profile_images/378800000043091457/261406ec3ad3beeec522df66f89614b5_400x400.jpeg" class="img-fluid" alt="cute picture8"></div>
+                    <div class="col-4"style="padding: 0px 3px 0px 3px;"><img src="https://i.picsum.photos/id/1033/400/400.jpg?hmac=v9MJH8zkm4PHzBsG24TmSGuQnnVjnk_vW_HzZR9X148"class="img-fluid" alt="cute picture9" ></div>
+                </div>
             </div>
         </div>
+    </div>        
     <!-- wall 3x3 picture grid ends here-->        
     <!-- instagram wall one picture frame --> 
-    <div class="nav-profile"    
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-            <div class="fondo">
-                <div class="card carta">
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="fondo ">
+            <div class="col-5" style="margin-left: 430px;">
+                <div class="card carta" style="margin-bottom:10px">
                     <div class="card-header">
-                        <h4 class="titulo">My Moon</h4>
-                        <button type="button" class="btn btn-link">7/11</button>
+                        <div class="d-flex flex-nowrap" style="padding:0px ;">
+                            <div class="order-1 p-2"><h4 class="titulo">My Moon</h4></div>
+                            <div class="order-2 p-2"><span style="margin-left:420px">7/11</span></div>
+                        </div>
                     </div>
                     <img src="http://www.lonestardigital.com/EOS_D30/Sample_Pix/D30_Img_3771(400x400_Crop).jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">23 Likes</h5>
-                        <p class="card-text">El sol ve tu cuerpo pero la luna ve tu alma. </p>
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="far fa-heart"></i>
-                        </button>
-                        <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </button>
+                        <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" style="padding-right:4px">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg> 23 Likes</h5>
+                        <p class="card-text"><strong>user_name</strong> El sol ve tu cuerpo pero la luna ve tu alma. </p>
                     </div>
                 </div>
-                <div class="card carta">
+                <div class="card carta" style="margin-bottom:20px; margin-top:20px" >
                     <div class="card-header">
-                        <h4 class="titulo">Stairs</h4>
-                        <button type="button" class="btn btn-link">06/10</button>
+                        <div class="d-flex flex-nowrap" style="padding:0px ;">
+                            <div class="order-1 p-2"><h4 class="titulo">Stairs</h4></div>
+                            <div class="order-2 p-2"><span style="margin-left:460px">06/10</span></div>
+                        </div>
                     </div>
                     <img src="https://i.picsum.photos/id/1033/400/400.jpg?hmac=v9MJH8zkm4PHzBsG24TmSGuQnnVjnk_vW_HzZR9X148" class="card-img-top" alt="Imagen carta">
-
                     <div class="card-body">
-                        <h5 class="card-title">564 Likes</h5>
-                        <p class="card-text">“We are all on the stairs, my friend; some of us are going down, some us are going up!”</p>
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="far fa-heart"></i>
-                        </button>
-                        <input type="text" class="form-control comentario" id="recipient-name" placeholder="Escriba un comentario...">
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </button>
+                        <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" style="padding-right:4px">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>564 Likes</h5>
+                        <p class="card-text"><strong>user_name</strong>“We are all on the stairs, my friend; some of us are going down, some us are going up!”</p>
                     </div>
                 </div>
-                <div class="card carta">
+                <div class="card carta" style="margin-bottom:20px">
                     <div class="card-header">
-                        <h4 class="titulo">Nebulosa</h4>
-                        <button type="button" class="btn btn-link">05/09</button>
+                        <div class="d-flex flex-nowrap" style="padding:0px ;">
+                            <div class="order-1 p-2"><h4 class="titulo">Nebulosa</h4></div>
+                            <div class="order-2 p-2"><span style="margin-left:420px">05/09</span></div>
+                        </div>
                     </div>
-                    <img src="https://ww1.prweb.com/prfiles/2005/06/07/249097/dumbbellmed.jpg" class="card-img-top" alt="Foto de un nebulosa">
+                    <img src="https://i.pinimg.com/736x/1f/00/b8/1f00b888c35563d0e0819f47a35442db--beautiful-space-final.jpg" class="card-img-top" alt="Foto de un nebulosa">
                     <div class="card-body">
-                        <h5 class="card-title">765 Likes</h5>
-                        <p class="card-text">"Situado en alguna nebulosa lejana hago lo que hago, para que el equilibrio universal de que soy parte no pierda el equilibrio." Antonio Porchia </p>
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="far fa-heart"></i>
-                        </button>
-                        <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </button>
+                        <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" style="padding-right:4px">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>765 Likes</h5>
+                        <p class="card-text"><strong>user_name</strong>"Situado en alguna nebulosa lejana hago lo que hago, para que el equilibrio universal de que soy parte no pierda el equilibrio." Antonio Porchia </p>
                     </div>
                 </div>
-                <div class="card carta">
+                <div class="card carta" style="margin-bottom:20px;">
                     <div class="card-header">
-                        <h4 class="titulo">La misma escalera</h4>
-                        <button type="button" class="btn btn-link">04/08</button>
+                        <div class="d-flex flex-nowrap" style="padding:0px ;">
+                            <div class="order-1 p-2"><h4 class="titulo">La misma escalera</h4></div>
+                            <div class="order-2 p-2"><span style="margin-left:325px">04/08</span></div>
+                        </div>
                     </div>
                     <img src="https://i.picsum.photos/id/1033/400/400.jpg?hmac=v9MJH8zkm4PHzBsG24TmSGuQnnVjnk_vW_HzZR9X148" class="card-img-top" alt="Imagen de escaleras">
                     <div class="card-body">
-                        <h5 class="card-title">68 Likes</h5>
-                        <p class="card-text">"To wish a life without stairs, without hills and mountains is to wish a dim life without the joy of rising with our own efforts!"</p>
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="far fa-heart"></i>
-                        </button>
-                        <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </button>
+                        <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" style="padding-right:4px">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>68 Likes</h5>
+                        <p class="card-text"><strong>user_name</strong>"To wish a life without stairs, without hills and mountains is to wish a dim life without the joy of rising with our own efforts!"</p>
                     </div>
                 </div>
-                <div class="card carta">
+                <div class="card carta" style="margin-bottom:20px;">
                     <div class="card-header">
-                        <h4 class="titulo">In a galaxy far far away</h4>
-                        <button type="button" class="btn btn-link">03/07</button>
+                        <div class="d-flex flex-nowrap" style="padding:0px ;">
+                            <div class="order-1 p-2"><h4 class="titulo">In a Galaxy far far away</h4></div>
+                            <div class="order-2 p-2"><span style="margin-left:265px">03/07</span></div>
+                        </div>
                     </div>
                     <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/1160.jpg?w=400&h=400&q=75" class="card-img-top" alt="Imagen carta">
 
                     <div class="card-body">
-                        <h5 class="card-title">456 Likes</h5>
-                        <p class="card-text">"The ability to speak does not make you intelligent" Qui-Gon Jinn</p>
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="far fa-heart"></i>
-                        </button>
-                        <input type="text" class="form-control comentario" id="recipient-name" placeholder="Escriba un comentario...">
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </button>
+                        <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" style="padding-right:4px">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>456 Likes</h5>
+                        <p class="card-text"><strong>user_name</strong>"The ability to speak does not make you intelligent" Qui-Gon Jinn</p>                    
                     </div>
                 </div>
-                <div class="card carta">
+                <div class="card carta" style="margin-bottom:20px;">
                     <div class="card-header">
-                        <h4 class="titulo">Mountain top</h4>
-                        <button type="button" class="btn btn-link">02/06</button>
+                        <div class="d-flex flex-nowrap" style="padding:0px ;">
+                            <div class="order-1 p-2"><h4 class="titulo">Mountain Top</h4></div>
+                            <div class="order-2 p-2"><span style="margin-left:360px">03/07</span></div>
+                        </div>
                     </div>
                     <img src="https://www.trailsandoceans.com/wp-content/uploads/2017/05/PAISAJES-DE-VENEZUELA-400x400-compressor.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">457 Likes</h5>
-                        <p class="card-text">"Cuando todo se sienta como una difícil subida, solo piensa en la vista desde arriba".</p>
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="far fa-heart"></i>
-                        </button>
-                        <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </button>
+                        <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" style="padding-right:4px">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>457 Likes</h5>
+                        <p class="card-text"><strong>user_name</strong>"Cuando todo se sienta como una difícil subida, solo piensa en la vista desde arriba".</p>                      
                     </div>
                 </div>
-                <div class="card carta">
+                <div class="card carta" style="margin-bottom:20px;">
                     <div class="card-header">
-                        <h4 class="titulo">Sunset</h4>
-                        <button type="button" class="btn btn-link">01/05</button>
+                        <div class="d-flex flex-nowrap" style="padding:0px ;">
+                            <div class="order-1 p-2"><h4 class="titulo">Sunset</h4></div>
+                            <div class="order-2 p-2"><span style="margin-left:430px">02/06</span></div>
+                        </div>
                     </div>
                     <img src="https://luzlux.com/wp-content/uploads/2019/11/PLZX0378-400x400.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">3987 Likes</h5>
-                        <p class="card-text">Todo atardecer trae consigo la promesa de un nuevo amanecer.</p>
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="far fa-heart"></i>
-                        </button>
-                        <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </button>
+                        <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" style="padding-right:4px">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>3987 Likes</h5>
+                        <p class="card-text"><strong>user_name</strong> El atardecer trae consigo la promesa de un nuevo amanecer.</p>                     
                     </div>
                 </div>
-                <div class="card carta">
+                <div class="card carta" style="margin-bottom:20px;">
                     <div class="card-header">
-                        <h4 class="titulo">The Island</h4>
-                        <button type="button" class="btn btn-link">12/04</button>
+                        <div class="d-flex flex-nowrap" style="padding:0px ;">
+                            <div class="order-1 p-2"><h4 class="titulo">The Island</h4></div>
+                            <div class="order-2 p-2"><span style="margin-left:400px">01/05</span></div>
+                        </div>
                     </div>
                     <img src="https://pbs.twimg.com/profile_images/378800000043091457/261406ec3ad3beeec522df66f89614b5_400x400.jpeg" class="card-img-top" alt="Imagen carta">
 
                     <div class="card-body">
-                        <h5 class="card-title">6789 Likes</h5>
-                        <p class="card-text">"El sabio se convierte en una isla que ninguna inundación puede abrumar" Buda</p>
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="far fa-heart"></i>
-                        </button>
-                        <input type="text" class="form-control comentario" id="recipient-name" placeholder="Escriba un comentario...">
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </button>
-                    </div>
+                        <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" style="padding-right:4px">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>6789 Likes</h5>
+                        <p class="card-text"><strong>user_name</strong>"El sabio se convierte en una isla que ninguna inundación puede abrumar" Buda</p>
+                       </div>
                 </div>
-                <div class="card carta">
+                <div class="card carta" style="margin-bottom:20px;">
                     <div class="card-header">
-                        <h4 class="titulo">Otra vez la misma escalera</h4>
-                        <button type="button" class="btn btn-link">11/03</button>
+                        <div class="d-flex flex-nowrap" style="padding:0px ;">
+                            <div class="order-1 p-2"><h4 class="titulo">Otra vez la misma escalera</h4></div>
+                            <div class="order-2 p-2"><span style="margin-left:220px">29/04</span></div>
+                        </div>
                     </div>
                     <img src="https://i.picsum.photos/id/1033/400/400.jpg?hmac=v9MJH8zkm4PHzBsG24TmSGuQnnVjnk_vW_HzZR9X148" class="card-img-top" alt="La misma imagen de escaleras">
                     <div class="card-body">
-                        <h5 class="card-title">654 Likes</h5>
-                        <p class="card-text">"Stairs to success are made of people."</p>
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="far fa-heart"></i>
-                        </button>
-                        <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </button>
+                        <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16" style="padding-right:4px">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>654 Likes</h5>
+                        <p class="card-text"><strong>user_name</strong> "Stairs to success are made of people."</p>
                     </div>
                 </div>
             </div>
